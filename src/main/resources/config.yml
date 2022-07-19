@@ -11,7 +11,7 @@ heartItem:
     - "&6Gives an extra heart!"
     - "&7&oYou have ${chance}% to get an additional heart added."
   loseChance: 50
-  addLimit: 0
+  addLimit: 20
 
 reviveBook:
   enabled: true
@@ -23,12 +23,12 @@ reviveBook:
   skull-lore:
     - "&aPress on the head to revive."
 
-killHeartLimit: 0
+killHeartLimit: 20
 removeHeartOnlyIfKilledByPlayer: false
 banOn0Hearts: true
 broadcastBanFrom0Hearts: true
 banTime: 0
-reviveHeartAmount: 20
+reviveHeartAmount: 10
 
 
 recipe:
